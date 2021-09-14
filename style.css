@@ -1,0 +1,52 @@
+.main__form{
+    background-color: #b37def;
+    margin: 25px 25%;
+    text-align: center;
+    border-radius: 25px;
+}
+input{
+    width: 50%;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 25px;
+    border: none;
+}
+input:focus{
+    outline: none;
+    background-color: darkgray;
+}
+select{
+    width: 40%;
+    border-radius: 5px;
+    padding: 3px;
+    margin-right: 5px;
+}
+button{
+    width: 20%;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #c95fc0;
+    border:2px solid rebeccapurple;
+}
+button:hover{
+    background-color: rgba(0, 0, 255, 0.25);
+}
+button:active{
+    background-color: navajowhite;
+}
+.main__list{
+    text-align: center;
+}
+table{
+    display: inline-block;
+}
+table,tr,th,td{
+    border: 1px solid #040444;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px 75px;
+}
+i{
+    font-size: 12px;
+}

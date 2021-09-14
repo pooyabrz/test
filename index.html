@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>password manager</title>
+</head>
+<body>
+    <div class="main__form">
+        <form id="form">
+            username: <input type="text" id="usname" value=""><br>
+            password: <input type="password" id="pass" value=""><i class='fas fa-eye'></i><br>
+        <select id="site-name" name="site">
+            <option value="w3schools.com">w3schools.com</option>
+            <option value="github.com">github.com</option>
+            <option value="youtube.com">youtube.com</option>
+            <option value="random">write any site you want</option>
+        </select>
+            <button id="save">save</button>
+        </form>
+    </div>
+    <div class="main__list">
+        <table>
+            <tr>
+            <th>username</th>
+            <th>password</th>
+            <th>site name</th>
+            </tr>
+        </table>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
